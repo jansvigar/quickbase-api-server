@@ -1,0 +1,19 @@
+{
+  "name": "quickbase-api-server",
+  "version": "0.0.1",
+  "description": "An API Server for connecting to Quickbase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jan Vigar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "quickbase": "^2.9.1"
+  }
+}
